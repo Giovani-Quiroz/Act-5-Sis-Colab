@@ -1,0 +1,26 @@
+{
+  "name": "actividad-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giovani-Quiroz/Act-5-Sis-Colab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giovani-Quiroz/Act-5-Sis-Colab/issues"
+  },
+  "homepage": "https://github.com/Giovani-Quiroz/Act-5-Sis-Colab#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  }
+}

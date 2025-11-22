@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>ColabSync Chat Corporativo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <h1>ColabSync Chat Corporativo</h1>
+      <div class="user-controls">
+        <span id="self-username">Conectando...</span>
+        <input
+          id="username-input"
+          type="text"
+          placeholder="Cambiar nombre y Enter (opcional)"
+        />
+        <span id="online-count">0 conectados</span>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <aside class="sidebar">
+        <h2>Usuarios conectados</h2>
+        <ul id="users-list"></ul>
+      </aside>
+
+      <section class="chat">
+        <div id="messages" class="messages"></div>
+
+        <form id="message-form" class="message-form">
+          <input
+            id="message-input"
+            type="text"
+            autocomplete="off"
+            placeholder="Escribe un mensaje..."
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
